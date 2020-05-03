@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>LibGit2Xamarin.NativeBinaries</AssemblyName>
+    <RootNamespace>LibGit2Sharp.Core</RootNamespace>
+    <Authors>Roger Ye</Authors>
+    <Company>PassXYZ</Company>
+  </PropertyGroup>
+
+  <Import Project="..\LibGit2Xamarin.Nativebinaries.Shared\LibGit2Xamarin.Nativebinaries.Shared.projitems" Label="Shared" />
+
+</Project>
