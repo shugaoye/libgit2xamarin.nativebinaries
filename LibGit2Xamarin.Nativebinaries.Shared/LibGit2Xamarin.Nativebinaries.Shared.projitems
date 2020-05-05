@@ -9,5 +9,8 @@
     <Import_RootNamespace>LibGit2Sharp.Core</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)LibGit2Xamarin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LibGit2XamarinSafeHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LibGit2XamarinWrapper.cs" />
   </ItemGroup>
 </Project>

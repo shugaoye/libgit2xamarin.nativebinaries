@@ -25,7 +25,10 @@ namespace LibGit2Xamarin.TestApp.Services
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
             };
-            Debug.WriteLine("LibGit2Sharp Version {0}\n", libgit2);
+            Debug.Print("LibGit2Sharp Version {0}\n", libgit2);
+
+            var unitTest = new LibGit2XamarinUnitTest();
+            Debug.WriteLine("LibGit2Xamarin feature={0}\n", LibGit2XamarinUnitTest.git_libgit2_features());
         }
 
         public async Task<bool> AddItemAsync(Item item)
