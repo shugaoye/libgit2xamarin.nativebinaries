@@ -2,9 +2,8 @@
 
 namespace LibGit2Sharp.Core
 {
-    public static class NativeDllName
+    public class LibGit2XamariniOS
     {
-        public const string Name = "libgit2";
     }
 }
 

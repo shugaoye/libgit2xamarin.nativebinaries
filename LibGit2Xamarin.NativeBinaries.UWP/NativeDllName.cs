@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibGit2Sharp.Core
 {
-    public static class NativeDllName
+    public class LibGit2XamarinUWP
     {
-        public const string Name = "git2";
     }
 }
