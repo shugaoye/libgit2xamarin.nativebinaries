@@ -62,6 +62,8 @@
     <EmbeddedNativeLibrary Include="libs\x86\libgit2.so" />
     <EmbeddedNativeLibrary Include="libs\x86\libssl.so.1.1" />
     <EmbeddedNativeLibrary Include="libs\x86_64\libgit2.so" />
+    <EmbeddedNativeLibrary Include="libs\x86_64\libcrypto.so.1.1" />
+    <EmbeddedNativeLibrary Include="libs\x86_64\libssl.so.1.1" />
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>

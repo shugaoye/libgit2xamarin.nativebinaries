@@ -10,7 +10,7 @@ namespace LibGit2Sharp.Core
 #elif __IOS__
         public const string DllName = "__Internal";
 #else
-        public const string DllName = "git2";
+        public const string DllName = "git2.dll";
 #endif
 
         public static string GetDllName()

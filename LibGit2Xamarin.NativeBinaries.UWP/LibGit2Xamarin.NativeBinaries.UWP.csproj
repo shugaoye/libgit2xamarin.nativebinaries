@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LibGit2Sharp.Core</RootNamespace>
-    <AssemblyName>LibGit2Xamarin.NativeBinaries</AssemblyName>
+    <AssemblyName>LibGit2Xamarin.NativeBinaries.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
@@ -131,6 +131,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="git2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibGit2Xamarin.NativeBinaries.Standard\LibGit2Xamarin.NativeBinaries.Standard.csproj">
+      <Project>{ddaf5070-50a4-4abc-b53d-4ab369ab0978}</Project>
+      <Name>LibGit2Xamarin.NativeBinaries.Standard</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

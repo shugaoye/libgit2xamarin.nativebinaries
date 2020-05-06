@@ -104,6 +104,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="git2.dll" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
@@ -153,9 +154,9 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\LibGit2Xamarin.NativeBinaries.UWP\LibGit2Xamarin.NativeBinaries.UWP.csproj">
-      <Project>{90e4d535-bd53-4a81-8e9f-0de3809f86a6}</Project>
-      <Name>LibGit2Xamarin.NativeBinaries.UWP</Name>
+    <ProjectReference Include="..\..\LibGit2Xamarin.NativeBinaries.Standard\LibGit2Xamarin.NativeBinaries.Standard.csproj">
+      <Project>{ddaf5070-50a4-4abc-b53d-4ab369ab0978}</Project>
+      <Name>LibGit2Xamarin.NativeBinaries.Standard</Name>
     </ProjectReference>
     <ProjectReference Include="..\LibGit2Xamarin.TestApp\LibGit2Xamarin.TestApp.csproj">
       <Project>{363BFA1A-98CB-4597-B824-BA7A4CC49AA1}</Project>
