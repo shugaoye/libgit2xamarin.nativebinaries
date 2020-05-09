@@ -67,6 +67,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidNativeLibrary Include="libs\arm64-v8a\libcrypto.so.1.1" />
+    <AndroidNativeLibrary Include="libs\arm64-v8a\libgit2.so" />
+    <AndroidNativeLibrary Include="libs\arm64-v8a\libssl.so.1.1" />
+    <AndroidNativeLibrary Include="libs\armeabi-v7a\libcrypto.so.1.1" />
+    <AndroidNativeLibrary Include="libs\armeabi-v7a\libgit2.so" />
+    <AndroidNativeLibrary Include="libs\armeabi-v7a\libssl.so.1.1" />
+    <AndroidNativeLibrary Include="libs\x86\libcrypto.so.1.1" />
+    <AndroidNativeLibrary Include="libs\x86\libgit2.so" />
+    <AndroidNativeLibrary Include="libs\x86\libssl.so.1.1" />
+    <AndroidNativeLibrary Include="libs\x86_64\libcrypto.so.1.1" />
+    <AndroidNativeLibrary Include="libs\x86_64\libgit2.so" />
+    <AndroidNativeLibrary Include="libs\x86_64\libssl.so.1.1" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -100,5 +112,6 @@
       <Name>LibGit2Xamarin.TestApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
