@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\libgit2sharp\LibGit2Sharp\LibGit2Sharp.csproj" />
     <ProjectReference Include="..\..\LibGit2Xamarin.NativeBinaries.Standard\LibGit2Xamarin.NativeBinaries.Standard.csproj" />
   </ItemGroup>
 </Project>

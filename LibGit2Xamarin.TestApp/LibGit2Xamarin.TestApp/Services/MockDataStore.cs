@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
+using LibGit2Sharp;
 using LibGit2Sharp.Core;
 using LibGit2Xamarin.TestApp.Models;
 
@@ -25,7 +26,11 @@ namespace LibGit2Xamarin.TestApp.Services
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
             };
-            Debug.Print("LibGit2Sharp Version {0}\n", libgit2);
+
+            string versionInfo = GlobalSettings.Version.ToString();
+            // string versionInfo = "UWP";
+
+            Debug.Print("LibGit2Sharp dllname={0}, Version {1}\n", libgit2, versionInfo);
 
             var unitTest = new LibGit2XamarinUnitTest();
             Debug.WriteLine("LibGit2Xamarin feature={0}\n", LibGit2XamarinUnitTest.git_libgit2_features());
