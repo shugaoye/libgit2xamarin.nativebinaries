@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-   <metadata minClientVersion="2.8.1">
+	<metadata minClientVersion="2.8.1">
       <id>LibGit2Xamarin.NativeBinaries</id>
-      <version>1.0.1</version>
+      <version>1.0.0</version>
       <title>LibGit2 Native Binaries for Xamarin.Forms</title>
        <authors>Roger Ye</authors>
        <owners>Roger Ye</owners>
        <projectUrl>https://github.com/shugaoye/libgit2xamarin.nativebinaries.git</projectUrl>
-       <icon>images\passxyz_editor_blue_128px.png</icon>
 	   <license type="file">LICENSE</license>
 	   <requireLicenseAcceptance>false</requireLicenseAcceptance>	   
        <description>
             LibGit2 Native Binaries for Xamarin.Forms.
        </description>
        <summary>LibGit2 Native Binaries for Xamarin.Forms.</summary>
-       <tags>xamarin, uwp, android, xamarin.forms, ios</tags>
-   </metadata>
-   <files>
-	 <file src="Icons\passxyz_editor_blue_128px.png" target="images\" />
-	 <file src="LICENSE" target="LICENSE" />
-      <!--Core-->
-     <file src="LibGit2Xamarin.NativeBinaries.Standard\bin\Debug\netstandard2.0\LibGit2Xamarin.NativeBinaries.dll" target="lib\netstandard2.0\LibGit2Xamarin.NativeBinaries.dll" />
-     <file src="LibGit2Xamarin.NativeBinaries.Standard\bin\Debug\netstandard2.0\LibGit2Xamarin.NativeBinaries.pdb" target="lib\netstandard2.0\LibGit2Xamarin.NativeBinaries.pdb" />
+       <tags>xamarin, uwp, android, xamarin.forms</tags>
+	</metadata>
+	<files>
+		<file src="LICENSE" target="LICENSE" />
+		<!--Core-->
+		<file src="LibGit2Xamarin.NativeBinaries.Standard\bin\Debug\netstandard2.0\LibGit2Xamarin.NativeBinaries.dll" target="lib\netstandard2.0\LibGit2Xamarin.NativeBinaries.dll" />
+		<file src="LibGit2Xamarin.NativeBinaries.Standard\bin\Debug\netstandard2.0\LibGit2Xamarin.NativeBinaries.pdb" target="lib\netstandard2.0\LibGit2Xamarin.NativeBinaries.pdb" />
 
-       <!--Xamarin.Android-->
-     <file src="LibGit2Xamarin.NativeBinaries.Droid\bin\Debug\LibGit2Xamarin.NativeBinaries.dll" target="lib\MonoAndroid10\LibGit2Xamarin.NativeBinaries.dll" />
-     <file src="LibGit2Xamarin.NativeBinaries.Droid\bin\Debug\LibGit2Xamarin.NativeBinaries.pdb" target="lib\MonoAndroid10\LibGit2Xamarin.NativeBinaries.pdb" />
-
-     <!--Xamarin.iOS-->
-     <file src="LibGit2Xamarin.NativeBinaries.iOS\bin\Debug\LibGit2Xamarin.NativeBinaries.dll" target="lib\MonoTouch10\LibGit2Xamarin.NativeBinaries.dll" />
-     <file src="LibGit2Xamarin.NativeBinaries.iOS\bin\Debug\LibGit2Xamarin.NativeBinaries.pdb" target="lib\MonoTouch10\LibGit2Xamarin.NativeBinaries.pdb" />
-	 
-	<!--UWP-->
-	<file src="LibGit2Xamarin.NativeBinaries.UWP\bin\Debug\LibGit2Xamarin.NativeBinaries.UWP.dll" target="lib\UAP10\LibGit2Xamarin.NativeBinaries.UWP.dll" />
-	<file src="LibGit2Xamarin.NativeBinaries.UWP\bin\Debug\LibGit2Xamarin.NativeBinaries.UWP.pdb" target="lib\UAP10\LibGit2Xamarin.NativeBinaries.UWP.pdb" />
-	<file src="LibGit2Xamarin.NativeBinaries.UWP\bin\Debug\LibGit2Xamarin.NativeBinaries.UWP.pri" target="lib\UAP10\LibGit2Xamarin.NativeBinaries.UWP.pri" />
-	<file src="LibGit2Xamarin.NativeBinaries.UWP\bin\Debug\LibGit2Xamarin.NativeBinaries.dll" target="lib\UAP10\LibGit2Xamarin.NativeBinaries.dll" />
-	<file src="LibGit2Xamarin.NativeBinaries.UWP\bin\Debug\LibGit2Xamarin.NativeBinaries.pdb" target="lib\UAP10\LibGit2Xamarin.NativeBinaries.pdb" />
-	<file src="LibGit2Xamarin.NativeBinaries.UWP\bin\Debug\LibGit2Xamarin.NativeBinaries.UWP\git2.dll" target="lib\UAP10\LibGit2Xamarin.NativeBinaries.UWP\git2.dll" />
+		<!--Xamarin.Android-->
+		<file src="LibGit2Xamarin.NativeBinaries.Droid\bin\Debug\LibGit2Xamarin.NativeBinaries.dll" target="lib\MonoAndroid10\LibGit2Xamarin.NativeBinaries.dll" />
+		<file src="LibGit2Xamarin.NativeBinaries.Droid\bin\Debug\LibGit2Xamarin.NativeBinaries.pdb" target="lib\MonoAndroid10\LibGit2Xamarin.NativeBinaries.pdb" />
 	</files>
 </package>
