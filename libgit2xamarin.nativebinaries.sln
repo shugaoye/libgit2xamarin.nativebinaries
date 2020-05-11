@@ -12,8 +12,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibGit2Xamarin.TestApp.UWP"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibGit2Xamarin.TestApp.Android", "LibGit2Xamarin.TestApp\LibGit2Xamarin.TestApp.Android\LibGit2Xamarin.TestApp.Android.csproj", "{EC3C5D4D-C0D2-44B9-A8CE-D61A888E7117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibGit2Xamarin.TestApp.iOS", "LibGit2Xamarin.TestApp\LibGit2Xamarin.TestApp.iOS\LibGit2Xamarin.TestApp.iOS.csproj", "{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibGit2Xamarin.TestApp", "LibGit2Xamarin.TestApp\LibGit2Xamarin.TestApp\LibGit2Xamarin.TestApp.csproj", "{EE8B0874-9B68-417F-9D8D-B60EB2FC06A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{97BF8BC9-7102-4104-A72E-D99DCBC1D85D}"
@@ -142,24 +140,6 @@ Global
 		{EC3C5D4D-C0D2-44B9-A8CE-D61A888E7117}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC3C5D4D-C0D2-44B9-A8CE-D61A888E7117}.Release|x86.Build.0 = Release|Any CPU
 		{EC3C5D4D-C0D2-44B9-A8CE-D61A888E7117}.Release|x86.Deploy.0 = Release|Any CPU
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|ARM.ActiveCfg = Debug|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|ARM64.ActiveCfg = Debug|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|iPhone.Build.0 = Debug|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|x64.ActiveCfg = Debug|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Debug|x86.ActiveCfg = Debug|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|ARM.ActiveCfg = Release|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|ARM64.ActiveCfg = Release|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|iPhone.ActiveCfg = Release|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|iPhone.Build.0 = Release|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|x64.ActiveCfg = Release|iPhone
-		{0D3AEE68-FCD6-4CD6-BA27-0AB3597BA70C}.Release|x86.ActiveCfg = Release|iPhone
 		{EE8B0874-9B68-417F-9D8D-B60EB2FC06A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE8B0874-9B68-417F-9D8D-B60EB2FC06A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE8B0874-9B68-417F-9D8D-B60EB2FC06A0}.Debug|ARM.ActiveCfg = Debug|Any CPU
