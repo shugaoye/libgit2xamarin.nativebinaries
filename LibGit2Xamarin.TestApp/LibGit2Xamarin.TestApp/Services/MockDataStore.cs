@@ -30,7 +30,6 @@ namespace LibGit2Xamarin.TestApp.Services
             Debug.Print("LibGit2Sharp dllname={0}\n", libgit2);
 
             string versionInfo = GlobalSettings.Version.ToString();
-            // string versionInfo = "UWP";
 
             Debug.Print("LibGit2Sharp Version={0}\n", versionInfo);
 

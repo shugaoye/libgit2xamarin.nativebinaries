@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -11,7 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibGit2Xamarin" Version="1.0.0" />
+    <PackageReference Include="LibGit2Xamarin.NativeBinaries.iOS" Version="1.0.1" />
+    <PackageReference Include="LibGit2Xamarin_iOS" Version="1.0.3" />
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.726" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.1" />
   </ItemGroup>
