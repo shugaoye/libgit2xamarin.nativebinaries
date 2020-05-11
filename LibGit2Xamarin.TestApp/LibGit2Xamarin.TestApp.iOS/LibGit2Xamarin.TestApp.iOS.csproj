@@ -146,4 +146,10 @@
       <Name>LibGit2Xamarin.TestApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Native References/libgit2.a">
+      <Kind>Static</Kind>
+      <ForceLoad>True</ForceLoad>
+    </NativeReference>
+  </ItemGroup>
 </Project>
